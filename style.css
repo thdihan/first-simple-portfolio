@@ -12,9 +12,12 @@ h1 {
 }
 
 section {
+    height: 100vh;
+}
+
+.flexible-container {
     display: flex;
     align-items: center;
-    height: 100vh;
 }
 
 .half-width {
@@ -49,4 +52,8 @@ section {
 
 .right-padding {
     padding-right: 100px;
+}
+
+.experence {
+    text-align: center;
 }

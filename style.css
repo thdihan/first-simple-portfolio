@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
@@ -54,6 +58,44 @@ section {
     padding-right: 100px;
 }
 
-.experence {
+.experience-heading {
     text-align: center;
+    margin-bottom: 100px;
+}
+
+.box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.box-container {
+    display: flex;
+    height: 55vh;
+    align-items: center;
+}
+
+.box h3 {
+    color: orange
+}
+
+.box p {
+    line-height: 35px;
+}
+
+.box:first-child {
+    border-left: 7px solid tomato;
+}
+
+.box:last-child {
+    border-left: 7px solid blue;
 }
